@@ -1,27 +1,30 @@
 .maindiv {
-    display: flex;
-    width: 50%;
-    border: 2px solid black;
-    box-shadow: 2px 2px 2px;
-    padding: 10px;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: space-between;
-    margin-bottom: 5px;
+  display: flex;
+  width: 50%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 
 .delbtn,
 .upbtn,
 .up-main-btn {
-    height: 40px;
-    color: white;
-    width: 80px;
-    border-radius: 8px;
+  height: 40px;
+  color: white;
+  width: 80px;
+  border-radius: 8px;
 }
 
-#searc-btn-pre-back, #searc-btn-tit-back, #put-btn{
-    display: none;
+#searc-btn-pre-back,
+#searc-btn-tit-back,
+#searc-btn-sort-back,
+#put-btn {
+  display: none;
 }
 
 
@@ -32,7 +35,7 @@
   border: 2px solid #ccc;
   border-radius: 15px;
   background-color: #f9f9f9;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   flex-direction: column;
@@ -87,6 +90,7 @@
 }
 
 
-h3, h2{
-    text-align: center;
+h3,
+h2 {
+  text-align: center;
 }
